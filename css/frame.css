@@ -218,6 +218,7 @@ hr {
   align-items: center;
   align-content: stretch;
   box-sizing: border-box;
+  color:#ffffff;
 }
 
 .flex-row-center {
