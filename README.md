@@ -1,30 +1,27 @@
-# project-website-template
-Demo: https://yenchiah.github.io/project-website-template/
+# money_matters_v3
 
-This is a responsive (mobile/desktop) and light-weight HTML/CSS template for building projects or personal websites. If your website does not require complex user interactions, I recommend starting with the empty template (empty.html) and copy codes from the file that contains different layouts (index.html). For building interactive websites, this library also provides several widgets (widgets.html) based on [jQuery](https://jquery.com/) and [jQuery UI](https://jqueryui.com/). Examples that use this template are:
-- Personal website: [http://yenchiah.me](http://yenchiah.me)
-- Project website: [http://smellpgh.org](http://smellpgh.org)
-- Project website: [https://smellmycity.org](https://smellmycity.org)
-- Project website: [https://smoke.createlab.org](https://smoke.createlab.org)
+A new Flutter project.
 
-If you would love to keep updating this template, please keep your codes in separate files (custom.css and custom.js) and avoid modifying the following:
-- css/frame.css (CSS for the main frame of the website)
-- css/controls.css (CSS for control elements that do not require JavaScript)
-- css/widgets.css (CSS for widgets that require JavaScript)
-- js/widgets.js (JavaScript for widgets)
-- js/menu.js (JavaScript for loading the menu bar)
+## Overview
 
-From version 3.0, the menu bar at the top is moved into a single file (menu.html) for better management. Each template page will now use jQuery to load the menu bar file (menu.js), as shown below:
-```html
-<script src="js/menu.js"></script>
-```
-If your website is static and requires no user interactions, I recommend copying the code from the menu file (menu.html) into the menu-container div in your html template.
-```html
-<div class="menu-container">
-  [copy everything in the menu.html and paste the code here]
-</div>
-```
-In this way, you can remove the script line that loads jQuery in the header of the html and also delete the files for loading the menu bar (menu.html and menu.js).
+
+
+This project is an expense/ income tracking app
+You can find out more on our website 
+https://marionqueenmelissa.github.io/
+
+
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/98028232/153346996-d55de9a3-dd5e-4d9c-b1c8-5df1a07d5ee3.png" width="230" />
+  <img src="https://user-images.githubusercontent.com/98028232/153347469-ea64cf3e-82be-44ba-addd-f6b95ebd3369.png" width="230" /> 
+  <img src="https://user-images.githubusercontent.com/98028232/153347536-df1ffd08-c3ff-47f4-8148-dfeb6270cae2.png" width="230" />
+  <img src="https://user-images.githubusercontent.com/98028232/153349354-bc1b2242-2782-4cf0-a258-f88c050f5d2c.png" width="230" />
+  <img src="https://user-images.githubusercontent.com/98028232/153349449-8ea68c08-09f4-4445-b3ca-3274879629af.png" width="230" />
+  <img src="https://user-images.githubusercontent.com/98028232/153350738-a1e49ee0-1467-42f7-9eab-731742bd1abe.png" width="230" />
+  <img src="https://user-images.githubusercontent.com/98028232/153350850-4ef6b33b-1dc0-4b22-bc7e-ac9a9f7460bb.png" width="230" />
+  <img src="https://user-images.githubusercontent.com/98028232/153350914-80bcd534-7b52-4b5b-a899-d2aa0e0445c0.png" width="230" />
+  </p>
+
 
 This template is tested and worked on:
 - macOS Mojave
@@ -44,17 +41,18 @@ This template is tested and worked on:
   - Firefox 18
 
 # Problems and Bugs
-Here are the problems and bugs that I plan to address in the future. If you fixed them, please do not hesitate to send me a pull request, and I would be very grateful. Please also report problems and bugs in [GitHub Issues](https://github.com/yenchiah/project-website-template/issues).
+Here are the problems and bugs that I plan to address in the future. If you fixed them, please do not hesitate to send me a pull request, and I would be very grateful. Please also report problems and bugs in [GitHub Issues](https://marionqueenmelissa.github.io/).
 
 - On mobile Safari, the menu on the top will not close after opening it. This is because the menu icon on mobile Safari retains focus after a touch event, and the menu relies on the loss of focus event of the icon to close.
 
 # Future Plans for Feature Enhancement
 Here are several features that I plan to add in the future. If you wish to contribute, please email me to discuss the design before submitting pull requests.
 
-- A slideshow block for showing images or videos
-- A footer at the bottom
+- Provision of instant notification to the users once there are issues with the
+  application and in that, we shall be able to get the feedback thus fixing the
+  problem as soon as possible.
+- Connection of users to their mobile money account and bank account such
+  that their expenses are subtracted directly from their account.
 
-# Policy for Open Source Contribution
-I welcome and appreciate contributions in fixing bugs and enhancing features. However, please avoid submitting pull requests (PRs) that modify the template's existing design without discussing them with me. Please also avoid submitting PRs that are not related to bug fixes or feature enhancements. Editing text in the README file is not encouraged (e.g., fixing grammar errors), and PRs with unnecessary editing (e.g., adding unrelated text, changing the design of the template, modifying the README text arbitrarily) will highly likely be marked as "spam" and "invalid."
 
-If you are excited to contribute to the new features directly, please explain your design decisions and how your design matches this template's style in the PR. If you fix bugs, please explain which bug you fixed and how you fixed them. The explanations that you put in each PR can greatly help me determine if the changes can be merged into the master branch. PRs with no explanations will highly likely be rejected and marked as "wontfix."
+
